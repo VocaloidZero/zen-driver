@@ -14,7 +14,7 @@ public class CarPaint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
- 
+        carMaterial.color = new Color(255, 255, 255, 0);
     }
 
     // Update is called once per frame
