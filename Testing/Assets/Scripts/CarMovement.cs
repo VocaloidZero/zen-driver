@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class CarMovement : MonoBehaviour 
 {
-    private float speed = 5.0f;
+    [SerializeField]
+    private float speed = 1.0f;
+
     public float turnSpeed = 100.0f;
     private float forwardInput;
     private float horizontalInput;
